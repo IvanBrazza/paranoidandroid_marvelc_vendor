@@ -1,0 +1,50 @@
+###################
+# PARANOIDANDROID #
+###################
+
+## DEFAULTS
+%rom_tablet_base=120
+%rom_phone_base=160
+%rom_mid_base=140
+%rom_systemui_dpi=140
+%screen_default_width=320
+%screen_default_height=480
+%screen_default_layout=34
+%screen_opposite_width=640
+%screen_opposite_height=1018
+%screen_opposite_layout=268435474
+
+## CONFIGURATION
+%hybrid_mode=1
+%user_default_mode=1
+%system_default_dpi=%rom_phone_base
+%user_default_dpi=%rom_phone_base
+android.dpi=0
+com.android.systemui.dpi=%rom_systemui_dpi
+com.android.systemui.mode=1
+
+## PREFERENCES
+com.android.settings.dpi=120
+com.android.settings.mode=2
+com.android.calendar.dpi=%rom_mid_base
+com.android.calendar.mode=2
+com.android.contacts.dpi=%rom_mid_base
+com.android.contacts.mode=2
+com.android.browser.dpi=%rom_mid_base
+com.android.browser.mode=2
+com.android.calculator2.dpi=%rom_tablet_base
+com.android.calculator2.mode=2
+com.android.email.dpi=%rom_mid_base
+com.android.email.mode=2
+com.android.vending.dpi=%rom_mid_base
+com.android.vending.mode=2
+com.google.android.gm.dpi=%rom_mid_base
+com.google.android.gm.mode=2
+com.google.android.talk.dpi=%rom_mid_base
+com.google.android.talk.mode=2
+com.cyanogenmod.trebuchet.dpi=%rom_mid_base
+com.cyanogenmod.trebuchet.mode=1
+com.andrew.apollo.dpi=%rom_mid_base
+com.andrew.apollo.mode=1
+com.android.vending.dpi=160
+com.android.vending.mode=1
