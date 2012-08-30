@@ -2,7 +2,7 @@
 ifeq (pa_marvelc,$(TARGET_PRODUCT))
  
 # Define PA bootanimation size
-PARANOID_BOOTANIMATION_NAME := HDPI
+PARANOID_BOOTANIMATION_NAME := MDPI
    
 # include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
